@@ -1,7 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/cassandra/.vim'
 let g:netrw_dirhist_2='/home/cassandra/.vim.bk'
 let g:netrw_dirhist_3='/home/cassandra/.vim'
 let g:netrw_dirhist_4='/home/cassandra/.ssh'
 let g:netrw_dirhist_5='/home/cassandra/.vim'
+let g:netrw_dirhist_6='/home/cassandra/.vim/bundle'
+let g:netrw_dirhist_7='/home/cassandra/XeTeX-Resume/moderncv'
+let g:netrw_dirhist_8='/home/cassandra/code/resume/resume-en'
+let g:netrw_dirhist_9='/home/cassandra/code/DIRAC-new/AccountingSystem/private/Plotters'
