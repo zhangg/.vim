@@ -8,7 +8,6 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
-set backup		" keep a backup file
 set history=50		" keep 50 lines of command line history
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
