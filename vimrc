@@ -80,14 +80,13 @@ syntax enable
 set smartindent
 set smarttab
 set ambiwidth=double
-set list
+"set list
 set foldmethod=syntax
 set foldcolumn=4
 set foldlevelstart=99
 
 set encoding=utf-8
 set fileencoding=utf-8
-set fileencodings=utf-8,gbk,cp936
 set termencoding=utf-8
 
 "set helplang=cn
@@ -101,7 +100,7 @@ set mousehide
 
 let s:extfname = expand("%:e")
 if s:extfname ==? "py"
-    iabbrev #e #!/usr/bin/env python<CR># -*- coding:utf-8 -*-<CR># author: zhanggang 
+    iabbrev #e # Copyright 2015 ZG<CR># All Rights Reserved<CR># <CR>#!/usr/bin/env python<CR># -*- coding:utf-8 -*-<CR> 
 
 endif
 
